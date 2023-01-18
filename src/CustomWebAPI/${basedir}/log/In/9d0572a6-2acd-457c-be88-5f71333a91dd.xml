@@ -1,0 +1,28 @@
+17.01.2023 19:15:29 <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/"><soapenv:Body><tem:RunScriptAsync>
+         <!--Optional:-->
+         <tem:Name>DocumentReqUpdateFromSAP</tem:Name>
+         <!--Optional:-->
+         <tem:Params>
+            <!--Zero or more repetitions:-->
+            <tem:KeyValueofstringstring>
+               <!--Optional:-->
+               <tem:Key>EDocumentID</tem:Key>
+               <!--Optional:-->
+               <tem:Value>506784</tem:Value>
+            </tem:KeyValueofstringstring>
+                 <tem:KeyValueofstringstring>
+               <!--Optional:-->
+               <tem:Key>RequisiteName</tem:Key>
+               <!--Optional:-->
+               <tem:Value>IDSAP|DATE|Comment</tem:Value>
+            </tem:KeyValueofstringstring>
+                        <tem:KeyValueofstringstring>
+               <!--Optional:-->
+               <tem:Key>ReqValue</tem:Key>
+               <!--Optional:-->
+               <tem:Value>FAK642176C4F1234|27.09.2022|</tem:Value>
+            </tem:KeyValueofstringstring>
+
+         </tem:Params>
+      </tem:RunScriptAsync>
+   </soapenv:Body></soapenv:Envelope>

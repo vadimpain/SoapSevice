@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	<var name="INTEGRATION_SERVICE_URL" value="http://localhost/Integration/odata" />
+	<var name="INTEGRATION_SERVICE_REQUEST_TIMEOUT" value="600" />
+	<var name="LOGS_PATH" value="${basedir}/log" />
+	<var name="PORT" value="27002" />
+  <var name="PATH_XSD_SCHEMAS" value="${basedir}/XSDShemas/runScript.xsd"/>
+	<var name="IS_INPUT_MESSAGE" value="True"/>
+	<var name="IS_OUTPUT_MESSAGE" value="True"/>
+	<var name="IS_ERROR_MESSAGE" value="True"/>
+</settings>
