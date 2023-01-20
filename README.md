@@ -17,7 +17,7 @@
 	<ServiceSetting Name="SoapService" Config="SoapService\_ConfigSettings.xml" Package="SoapService.zip" ConfigWatcherEnabled="false" />
 	```
 	* Сохраните _ConfigSettings.
-7. Перезапустите сервисы, для этого в папке DirectumLauncher выполните команды:
+7. Перезапустите сервисы, для этого в папке DirectumLauncher выполните команды (без кавычек):
 	* Для Windows: "do all down" и "do all up".
 	* Для Linux: "./do.sh all down" и "./do.sh all up"
 8. Проверьте, что папка SoapService создалась в \etc\\_builds_bin. Создается не сразу после перезапуска, возможно стоит подождать пару минут.
