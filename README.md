@@ -1,5 +1,6 @@
 # SoapSevice
 ## Порядок запуска микросервиса средствами ServiceRunner (только для Windows):
+Если у вас ос на базе linux, то пропустите пункты 1 и 2 и воспользуйтесь архивом SoapService.zip
 1. Опубликуйте микросервис. Параметры для публикации:
 	* Конфигурация: Release
 	* Целевая платформа: netcoreapp3.1
@@ -16,5 +17,8 @@
 	<ServiceSetting Name="SoapService" Config="SoapService\_ConfigSettings.xml" Package="SoapService.zip" ConfigWatcherEnabled="false" />
 	```
 	* Сохраните _ConfigSettings.
-7. Перезапустите службу ServiceRunner. Проверьте, что папка SoapService создалась в \etc\\_builds_bin. Создается не сразу после перезапуска, возможно стоит подождать пару минут.
-8. Для проверки работоспособности сервиса, можно открыть его по адресу http://localhost:<Порт>/api/Soap/Service.asmx
+7. Перезапустите сервисы, для этого в папке DirectumLauncher выполните команды:
+	* Для Windows: "do all down" и "do all up".
+	* Для Linux: "./do.sh all down" и "./do.sh all up"
+8. Проверьте, что папка SoapService создалась в \etc\\_builds_bin. Создается не сразу после перезапуска, возможно стоит подождать пару минут.
+9. Для проверки работоспособности сервиса, можно открыть его по адресу http://localhost:<Порт>/api/Soap/Service.asmx
